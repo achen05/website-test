@@ -3,6 +3,7 @@
   padding: 0px;
   color: white;
   font-family: monospace;
+  font-size: 9.5pt;
 }
 
 body {
@@ -83,6 +84,11 @@ body {
 
 
 @media (max-width: 900px ) {
+
+  * {
+    font-size: 8pt;
+  }
+
   .website-container {
     margin: 12px 0px 16px 0px;
     display: flex;
