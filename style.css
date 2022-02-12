@@ -46,6 +46,7 @@ body {
   border: 1px solid white;
   padding: 4px;
   margin-bottom: 16px;
+  font-size: 9.5pt;
 }
 
 
@@ -76,6 +77,7 @@ body {
 .link {
   color: #00ff00;
   text-decoration: underline;
+  font-size: 9.5pt;
 }
 
 .borderless-text {
@@ -84,14 +86,21 @@ body {
 
 
 @media (max-width: 900px ) {
-
-  * {
-    font-size: 8pt;
-  }
-
   .website-container {
     margin: 12px 0px 16px 0px;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .information-text {
+    font-size: 8pt;
+  }
+
+  .body-text {
+    font-size: 8pt;
+  }
+
+  .link {
+    font-size: 8pt;
   }
 }
