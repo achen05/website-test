@@ -28,11 +28,12 @@ body {
   justify-content: left;
   position: sticky;
   top: 16px;
+  margin-left: -16px;
 }
 
 .ascii-name {
   white-space: pre;
-  font-size: calc(6px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(7px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
   text-align: left;
 }
 
@@ -81,7 +82,7 @@ body {
 }
 
 
-@media (max-width: 650px ) {
+@media (max-width: 900px ) {
   .website-container {
     margin: 12px 0px 16px 0px;
     display: flex;
