@@ -34,7 +34,7 @@ body {
 
 .ascii-name {
   white-space: pre;
-  font-size: calc(6.5px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(6px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
   text-align: left;
 }
 
